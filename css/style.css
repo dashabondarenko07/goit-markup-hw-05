@@ -5,32 +5,34 @@
     --black-color: #000;
     --background-color: #2F303A;
     --white-color: #FFF;
-    --black-color: #212121;
+    --main-text-color: #212121;
     --gray-color: #757575;
     --light-gray-color: #F5F4FA;
 }
 body{
     background: var(--white-color);
-    color: var(--black-color);
+    color: var(--main-text-color);
     font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
 }
 .logo{
     font-family: Raleway;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 0.2;
     letter-spacing: 0.03em;
+    font-weight: 700;
 }
 .link_logo,
 .link{
     text-decoration: none;
-    color: #000;
+    color: var(--black-color);
+    font-weight: 500;
 }
 .part_of_the_logo{
     color: var(--blue-color);
 }
-.link:hover{
+.link:hover,
+.link:focus {
     color: var(--blue-color);
 }
 .list{
@@ -43,7 +45,7 @@ body{
     color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.4;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -56,12 +58,12 @@ body{
     left: 700px;
     top: 430px;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    font-weight: bold;
+    font-weight: 700;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     justify-content: center;
@@ -71,22 +73,25 @@ body{
 }
 .title_item{
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--black-color);
+    color: var(--main-text-color);
+    font-weight: 700;
 }
 .text_item{
     color: var(--gray-color);
 }
 .we_doing-title{
-    color: var(--black-color);
+    color: var(--main-text-color);
+    font-weight: 700;
 }
 .our_team-section{
     background: var(--light-gray-color);
 }
 .our_team-title{
-    color: var(--black-color);
+    color: var(--main-text-color);
+    font-weight: 700;
 }
 .our_team-item{
     background: var(--white-color);
@@ -97,7 +102,7 @@ body{
     margin-bottom: 0;
     font-weight: normal;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 .our_team-text-item{
@@ -106,19 +111,19 @@ body{
 .white_link{
     color: var(--white-color);
     text-decoration: none;
+    font-weight: 400;
 }
 .white_text{
     color: var(--white-color);
-    font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
 .transparent_white_link{
     color: rgba(255, 255, 255, 0.6);
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
 .contact{
@@ -134,10 +139,13 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
     font-size: 16px;
-    line-height: 26px;
-height: 38px;
+    line-height: 1.6;
+    height: 38px;
+    font-weight: 500;
+    cursor: pointer;
 }
-.filters:hover{
+.filters:hover,
+.filters:focus{
     background: var(--blue-color);
     color: var(--white-color);
 }
@@ -160,13 +168,13 @@ height: 38px;
     margin-bottom: 4px;
     letter-spacing: 0.06em;
     font-size: 18px;
-    line-height: 36px;
-    color: var(--black-color);
+    line-height: 2;
+    color: var(--main-text-color);
 }
 .projects_text{
     font-weight: normal;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--gray-color);
     margin: 0;
