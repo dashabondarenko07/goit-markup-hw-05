@@ -11,7 +11,7 @@
 }
 body{
     background: var(--white-color);
-    color: tomato;
+    color: var(--black-color);
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -124,4 +124,50 @@ body{
 .contact{
     font-style: normal;
     background: var(--background-color);
+}
+.filters{
+    width: 73px;
+    height: 38px;
+    left: 495px;
+    top: 174px;
+    background: var(--light-gray-color);
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 26px;
+height: 38px;
+}
+.filters:hover{
+    background: var(--blue-color);
+    color: var(--white-color);
+}
+.btn_filters_1{
+    width: 73px;
+}
+.btn_filters_2{
+    width: 128px;
+}
+.btn_filters_3{
+    width: 145px;
+}
+.btn_filters_4{
+    width: 103px;
+}
+.btn_filters_5{
+    width: 130px;
+}
+.projects_title{
+    margin-bottom: 4px;
+    letter-spacing: 0.06em;
+    font-size: 18px;
+    line-height: 36px;
+    color: var(--black-color);
+}
+.projects_text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--gray-color);
+    margin: 0;
 }
