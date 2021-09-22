@@ -92,6 +92,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
+    font-family: var(--principal-font);
 }
 /* peculiarity */
 .hidden-text{
@@ -168,6 +169,7 @@
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    font-family: var(--secondary-font);
 }
 .footer-logo-highlighted{
     color: var(--blue-color);
