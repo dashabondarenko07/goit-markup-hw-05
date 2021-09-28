@@ -14,80 +14,89 @@
 
 	<body>
 		
-		<header>
+		<header class="header centering">
       <a class="header-logo" href="index.html"><span class="header-logo-highlighted">Web</span>Studio</a>
 
-      <nav>
-        <ul class="site-nav">
-          <li><a class="site-nav-link" href="./index.html">Студия</a></li>
-          <li><a class="site-nav-link site-nav-backlight" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="site-nav-link" href="#">Контакты</a></li>
+      <nav class="nav">
+        <ul class="site-nav centering">
+          <li class="site-nav-item"><a class="site-nav-link" href="./index.html">Студия</a></li>
+          <li class="site-nav-item site-nav-item-second"><a class="site-nav-link site-nav-backlight" href="./portfolio.html">Портфолио</a></li>
+          <li class="site-nav-item"><a class="site-nav-link" href="#">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul class="contacts">
-        <li><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="contacts centering">
+        <li class="contacts-item-first"><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="contacts-item-second"><a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
-		<main>
+		<main class="main-portfolio">
 			<section>
 				<h1 class="hidden-text">Портфолио</h1>
-				<ul class="filter">
-					<li><button class="filter-btn" type="button">Все</button></li>
-					<li><button class="filter-btn" type="button">Веб-сайты</button></li>
-					<li><button class="filter-btn" type="button">Приложения</button></li>
-					<li><button class="filter-btn" type="button">Дизайн</button></li>
-					<li><button class="filter-btn" type="button">Маркетинг</button></li>
+				<ul class="filter centering">
+					<li><button class="filter-btn btn-cursor" type="button">Все</button></li>
+					<li class="filter-stationing"><button class="filter-btn btn-cursor" type="button">Веб-сайты</button></li>
+					<li><button class="filter-btn btn-cursor" type="button">Приложения</button></li>
+					<li class="filter-stationing"><button class="filter-btn btn-cursor" type="button">Дизайн</button></li>
+					<li><button class="filter-btn btn-cursor" type="button">Маркетинг</button></li>
 				</ul>
 
 				<ul class="project">
-					<li>
-						<img src="./images/portfolio9.jpg" alt="сайт с людьми" width="370">
-						<h3 class="project-title">Технокряк</h3>
-						<p class="project-text">Веб-сайт</p>
-					</li>
-					<li>
-						<img src="./images/portfolio1.jpg" alt="два баскетболиста" width="370">
-						<h3 class="project-title">Постер New Orlean vs Golden Star</h3>
-						<p class="project-text">Веб-сайт</p>
-					</li>
-					<li>
-						<img src="./images/portfolio2.jpg" alt="логотип ресторана" width="370">
-						<h3 class="project-title">Ресторан Seafood</h3>
-						<p class="project-text">Приложение</p>
-					</li>
-					<li>
-						<img src="./images/portfolio3.jpg" alt="чернву мониторные наушники" width="370">
-						<h3 class="project-title">Проект Prime</h3>
-						<p class="project-text">Маркетинг</p>
-					</li>
-					<li>
-						<img src="./images/portfolio4.jpg" alt="две коробки" width="370">
-						<h3 class="project-title">Проект Boxes</h3>
-						<p class="project-text">Приложение</p>
-					</li>
-					<li>
-						<img src="./images/portfolio5.jpg" alt="монитор с веб-сайтом" width="370">
-						<h3 class="project-title">Inspiration has no Borders</h3>
-						<p class="project-text">Веб-сайт</p>
-					</li>
-					<li>
-						<img src="./images/portfolio6.jpg" alt="открытая книга" width="370">
-						<h3 class="project-title">Издание Limited Edition</h3>
-						<p class="project-text">Дизайн</p>
-					</li>
-					<li>
-						<img src="./images/portfolio7.jpg" alt="белая магазинная бирка" width="370">
-						<h3 class="project-title">Проект LAB</h3>
-						<p class="project-text">Проект LAB</p>
-					</li>
-					<li>
-						<img src="./images/portfolio8.jpg" alt="работа с приложением" width="370">
-						<h3 class="project-title">Growing Business</h3>
-						<p class="project-text">Приложение</p>
-					</li>
+					<div class="project-row centering">
+						<li class="project-item-stationing">
+							<img src="./images/portfolio9.jpg" alt="сайт с людьми" width="370">
+							<h2 class="project-title">Технокряк</h2>
+							<p class="project-text">Веб-сайт</p>
+						</li>
+						<li class="project-item-stationing">
+							<img src="./images/portfolio1.jpg" alt="два баскетболиста" width="370">
+							<h2 class="project-title">Постер New Orlean vs Golden Star</h2>
+							<p class="project-text">Веб-сайт</p>
+						</li>
+						<li class="project-item-stationing">
+							<img src="./images/portfolio2.jpg" alt="логотип ресторана" width="370">
+							<h2 class="project-title">Ресторан Seafood</h2>
+							<p class="project-text">Приложение</p>
+						</li>
+					</div>
+
+					<div class="project-row-stationing centering">
+						<li class="project-item-stationing">
+							<img src="./images/portfolio3.jpg" alt="чернву мониторные наушники" width="370">
+							<h2 class="project-title">Проект Prime</h2>
+							<p class="project-text">Маркетинг</p>
+						</li>
+						<li class="project-item-stationing">
+							<img src="./images/portfolio4.jpg" alt="две коробки" width="370">
+							<h2 class="project-title">Проект Boxes</h2>
+							<p class="project-text">Приложение</p>
+						</li>
+						<li class="project-item-stationing">
+							<img src="./images/portfolio5.jpg" alt="монитор с веб-сайтом" width="370">
+							<h2 class="project-title">Inspiration has no Borders</h2>
+							<p class="project-text">Веб-сайт</p>
+						</li>
+					</div>
+
+					<div class="project-row centering">
+						<li class="project-item-stationing">
+							<img src="./images/portfolio6.jpg" alt="открытая книга" width="370">
+							<h2 class="project-title">Издание Limited Edition</h2>
+							<p class="project-text">Дизайн</p>
+						</li>
+						<li class="project-item-stationing">
+							<img src="./images/portfolio7.jpg" alt="белая магазинная бирка" width="370">
+							<h2 class="project-title">Проект LAB</h2>
+							<p class="project-text">Проект LAB</p>
+						</li>
+						<li class="project-item-stationing">
+							<img src="./images/portfolio8.jpg" alt="работа с приложением" width="370">
+							<h2 class="project-title">Growing Business</h2>
+							<p class="project-text">Приложение</p>
+						</li>
+					</div>
+
 				</ul>
 			</section>
 		</main>
@@ -97,7 +106,7 @@
 			<address>
 				<ul class="address">
 					<li>г. Киев, пр-т Леси Украинки, 26</li>
-					<li><a class="address-link" href="mailto:info@example.com">info@example.com</a></li>
+					<li class="address-item-stationing"><a class="address-link" href="mailto:info@example.com">info@example.com</a></li>
 					<li><a class="address-link" href="tel:+380991111111">+38 099 111 11 11</a></li>
 				</ul>
 			</address>
