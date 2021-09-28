@@ -5,71 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   
   <body>
-
-    <header>
+<!-- centering -->
+    <header class="header centering">
       <a class="header-logo" href="index.html"><span class="header-logo-highlighted">Web</span>Studio</a>
 
-      <nav>
-        <ul class="site-nav">
-          <li><a class="site-nav-link site-nav-backlight" href="./index.html">Студия</a></li>
-          <li><a class="site-nav-link" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="site-nav-link" href="#">Контакты</a></li>
+      <nav class="nav">
+        <ul class="site-nav centering">
+          <li class="site-nav-item"><a class="site-nav-link site-nav-backlight" href="./index.html">Студия</a></li>
+          <li class="site-nav-item site-nav-item-second "><a class="site-nav-link" href="./portfolio.html">Портфолио</a></li>
+          <li class="site-nav-item"><a class="site-nav-link" href="#">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul class="contacts">
-        <li><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="contacts centering">
+        <li class="contacts-item-first"><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="contacts-item-second"><a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
-    <main>
+    <main class="main">
       <section class="hero-section">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="hero-btn" type="button">Заказать услугу</button>
+        <div class="centering">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        </div>
+        <div class="hero-btn-stationing centering">
+          <button class="hero-btn btn-cursor" type="button">Заказать услугу</button>
+        </div>
       </section>
 
-      <section>
+      <section class="peculiarity-section">
         <h2 class="hidden-text">Особенности</h2>
 
-        <ul class="peculiarity">
-          <li>
+        <ul class="peculiarity centering">
+          <li class="peculiarity-item">
             <h3 class="peculiarity-title">Внимание к деталям</h3>
             <p class="peculiarity-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
           </li>
-          <li>
+          <li class="peculiarity-item peculiarity-item-stationing">
             <h3 class="peculiarity-title">Пунктуальность</h3>
             <p class="peculiarity-text">
               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
-          <li>
+          <li class="peculiarity-item peculiarity-item-stationing">
             <h3 class="peculiarity-title">Планирование</h3>
             <p class="peculiarity-text">
               Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="peculiarity-item">
             <h3 class="peculiarity-title">Современные технологии</h3>
             <p class="peculiarity-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
           </li>
         </ul>
       </section>
 
-      <section>
-        <h2 class="our-works-title-section">Чем мы занимаемся</h2>
-        <ul class="our-works">
+      <section class="our-works-section">
+        <h2 class="our-works-section-title ">Чем мы занимаемся</h2>
+        <ul class="our-works centering">
           <li>
             <img src="./images/img(1).jpg" alt="Крупный план программиста" width="370" />
           </li>
-          <li>
+          <li class="our-works-item-stationing">
             <img src="./images/img(2).jpg" alt="Разработка интерфейса для телефонов" width="370" />
           </li>
           <li>
@@ -80,23 +85,23 @@
 
       <section class="our-team-section">
         <h2 class="our-team-section-title">Наша команда</h2>
-        <ul class="our-team">
-          <li>
+        <ul class="our-team centering">
+          <li class="our-team-item-stationing">
             <img src="./images/img1.jpg" alt="Фото Игоря Демьяненка" width="270" />
             <h3 class="our-team-title">Игорь Демьяненко</h3>
             <p class="our-team-text">Product Designer</p>
           </li>
-          <li>
+          <li class="our-team-item-stationing">
             <img src="./images/img2.jpg" alt="Фото Ольги Репиной" width="270" />
             <h3 class="our-team-title">Ольга Репина</h3>
             <p class="our-team-text">Frontend Developer</p>
           </li>
-          <li>
+          <li class="our-team-item-stationing">
             <img src="./images/img3.jpg" alt="Фото Николая Тарасова" width="270" />
             <h3 class="our-team-title">Николай Тарасов</h3>
             <p class="our-team-text">Marketing</p>
           </li>
-          <li>
+          <li class="our-team-item-stationing">
             <img src="./images/img4.jpg" alt="Фото Михаила Ермакова" width="270" />
             <h3 class="our-team-title">Михаил Ермаков</h3>
             <p class="our-team-text">UI Designer</p>
@@ -110,7 +115,7 @@
 			<address>
 				<ul class="address">
 					<li>г. Киев, пр-т Леси Украинки, 26</li>
-					<li><a class="address-link" href="mailto:info@example.com">info@example.com</a></li>
+					<li class="address-item-stationing"><a class="address-link" href="mailto:info@example.com">info@example.com</a></li>
 					<li><a class="address-link" href="tel:+380991111111">+38 099 111 11 11</a></li>
 				</ul>
 			</address>
