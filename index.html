@@ -15,7 +15,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css"/>
   </head>
 
   <body>
@@ -58,7 +58,7 @@
       <section class="hero-section">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="hero-btn btn-cursor" type="button">Заказать услугу</button>
+          <button class="hero-btn btn-cursor" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
 
@@ -115,12 +115,17 @@
           <h2 class="our-works-section-title">Чем мы занимаемся</h2>
           <ul class="our-works">
             <li class="our-works-item">
+              <p class="our-works-p">Десктопные приложения</p>
               <img src="./images/img(1).jpg" alt="Крупный план программиста" width="370" />
             </li>
+
             <li class="our-works-item">
+              <p class="our-works-p">Мобильные приложения</p>
               <img src="./images/img(2).jpg" alt="Разработка интерфейса для телефонов" width="370" />
             </li>
+
             <li class="our-works-item">
+              <p class="our-works-p">Дизайнерские решения</p>
               <img src="./images/img(3).jpg" alt="Подбор цвета" width="370" />
             </li>
           </ul>
@@ -398,5 +403,19 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-button btn-cursor" data-modal-close>
+          <svg width="11" height="11">
+            <use href="./images/icons.svg#close-black"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+
+    <script src="./js/modal.js"></script>
   </body>
+
 </html>
